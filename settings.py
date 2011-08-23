@@ -11,6 +11,10 @@ LUNCH_WEEKDAY = calendar.THURSDAY
 
 # brace for ugly ass comprehension:
 WHO = [ nerd['name'] for nerd in NERDS if nerd['rsvp']==True ]
+GUESTS = sum([ nerd['guests'] for nerd in NERDS if nerd['rsvp']==True ])
+
+# Keep track of overall number of people
+COUNT = len(WHO) + GUESTS
 
 # this WHEN override doesn't really work yet
 WHEN = ''

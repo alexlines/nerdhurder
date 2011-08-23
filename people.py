@@ -6,28 +6,34 @@
 # feel free to add more info here or to change the way your name is formatted.
 # I had everyone's email addresses here but then deleted them.
 
-# not sure if the rsvp should be true or false by default, probably False?
+# RSVP is false by default.
 
 NERDS = [
   {
     'name': 'alexlines', 
     'rsvp': True,
+    'guests': 0,
   },
   {
     'name': 'james', 
     'rsvp': True,
+    'guests': 2,
   },
   { 'name': 'bradley', 
     'rsvp': False,
+    'guests': 0,
   },
   { 'name': 'steve', 
     'rsvp': False, 
+    'guests': 0,
   },
   { 'name': 'jonathan', 
     'rsvp': False,
+    'guests': 0,
   },
   { 'name': 'choyce', 
     'rsvp': True,
+    'guests': 0,
   },
 ]
 

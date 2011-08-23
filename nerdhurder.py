@@ -18,7 +18,7 @@ __TODO__ = [
              'the WHEN override does not really work yet',
            ]
 
-from settings import WHO, WHERE, WHEN
+from settings import WHO, COUNT, WHERE, WHEN
 from lunchdates import next_lunch_date
 
 class NerdHurd(object):
@@ -26,11 +26,11 @@ class NerdHurd(object):
   def __init__(self):
       self.time = 'placeholder'
 
-  def assemble(self, who=WHO, when=WHEN, where=WHERE):
+  def assemble(self, who=WHO, count=COUNT, when=WHEN, where=WHERE):
       when = next_lunch_date()
       attending = "\n\t".join(who)
       # hold your nose:
-      print "who: \t%s\nwhen: \t%s\nwhere: \t%s\n" % (attending, when, where)
+      print "who: \t%s\ncount: \t%s\nwhen: \t%s\nwhere: \t%s\n" % (attending, count, when, where)
 
   def format(self, args):
       pass
