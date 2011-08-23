@@ -10,7 +10,7 @@
 
 NERDS = [
   {
-    'name': 'alex', 
+    'name': 'alexlines', 
     'rsvp': False,
   },
   {
