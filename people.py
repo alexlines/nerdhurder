@@ -11,23 +11,23 @@
 NERDS = [
   {
     'name': 'alex', 
-    'rsvp': True,
+    'rsvp': False,
   },
   {
     'name': 'james', 
-    'rsvp': True,
+    'rsvp': False,
   },
   { 'name': 'bradley', 
-    'rsvp': True,
+    'rsvp': False,
   },
   { 'name': 'steve', 
-    'rsvp': True, 
+    'rsvp': False, 
   },
   { 'name': 'jonathan', 
-    'rsvp': True,
+    'rsvp': False,
   },
   { 'name': 'choyce', 
-    'rsvp': True,
+    'rsvp': False,
   },
 ]
 
