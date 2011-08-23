@@ -1,0 +1,34 @@
+python interface to lunch
+
+* who's coming to lunch?
+
+ $ git clone git@github.com:alexlines/nerdhurder.git
+ $ cd nerdhurder
+ $ ./nerdhurder.py
+ who:    alex
+         james
+         bradley
+         steve
+         jonathan
+         choyce
+         parry gripp
+ when:   Thu Aug 25 13:00:00 2011
+ where:  bill's bar and burger http://bit.ly/n3ga4p
+
+* rsvp for lunch via commit
+
+ $ vi people.py
+ edit and set NERDS['your_name']['rsvp'] to True or False
+ $ git commit -m "bill's burger no longer accepts bitcoin, so I'm not coming." people.py
+ there is a post-commit email hook tied to a group email address, so everyone should then receive the github email notification from the commit which will serve as your public rsvp.
+
+* propose a change of venue, time, or day
+
+ $ vi settings.py
+ edit the relevant constant(s)
+ $ git commit -m "let's try lunch at hill country this week, a burger is simply not enough meat."
+ as usual, everyone will receive the commit notification. if anyway wants to provide feedback on the proposed location, they can do so by commenting on the commit in the github interface and the discussion will be sent to the group.
+
+* the structure of the project is intentionally simple and flat. feel free to hack it up and build a giant, super-abstracted, asynchronous, queue-based, clustered kv-backed, non-blocking architecture in order to complexify this simple task for which email is completely sufficient. if you want to incorporate every buzzword technology you can think of, go for it, just don't break it or we'll go hungry.
+
+http://github.com/alexlines/nerdhurder.git

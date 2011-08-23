@@ -1,0 +1,7 @@
+*.pyc
+*.DS_Store
+*~
+*#*#
+*.swp
+# suckit losers:
+*.rb
