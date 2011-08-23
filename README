@@ -12,6 +12,7 @@ python interface to lunch
          jonathan
          choyce
          parry gripp
+ count:  7
  when:   Thu Aug 25 13:00:00 2011
  where:  bill's bar and burger http://bit.ly/n3ga4p
 
@@ -19,6 +20,7 @@ python interface to lunch
 
  $ vi people.py
  edit and set NERDS['your_name']['rsvp'] to True or False
+ if you're bringing guests, edit and set NERDS['your_name']['guests'] to the number (i.e. 2)
  $ git commit -m "bill's burger no longer accepts bitcoin, so I'm not coming." people.py
  there is a post-commit email hook tied to a group email address, so everyone should then receive the github email notification from the commit which will serve as your public rsvp.
 
