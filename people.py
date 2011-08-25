@@ -11,7 +11,7 @@
 NERDS = [
   {
     'name': 'alexlines', 
-    'rsvp': True,
+    'rsvp': False,
     'guests': 0,
   },
   {
