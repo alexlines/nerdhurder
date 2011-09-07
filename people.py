@@ -16,7 +16,7 @@ NERDS = [
   },
   {
     'name': 'james',
-    'rsvp': False,
+    'rsvp': True,
     'guests': 0,
   },
   { 'name': 'bradley',
