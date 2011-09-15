@@ -5,9 +5,13 @@
 
 import calendar
 
-import simplejson, json
+try:
+    import simplejson as json
+except:
+    import json
+
 json_data = open('people.json')
-NERDS = simplejson.load(json_data)
+NERDS = json.load(json_data)
 
 LUNCH_HOUR = 13
 LUNCH_WEEKDAY = calendar.THURSDAY
