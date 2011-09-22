@@ -17,7 +17,7 @@
     {
         "guests": 0,
         "name": "steve",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
