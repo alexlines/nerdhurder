@@ -2,12 +2,12 @@
     {
         "guests": 0,
         "name": "alexlines",
-        "rsvp": true
+        "rsvp": false
     },
     {
-        "guests": 2,
+        "guests": 0,
         "name": "james",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
@@ -17,12 +17,12 @@
     {
         "guests": 0,
         "name": "steve",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
         "name": "jonathan",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
