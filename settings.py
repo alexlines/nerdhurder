@@ -25,4 +25,4 @@ COUNT = len(WHO) + GUESTS
 
 # this WHEN override doesn't really work yet
 WHEN = ''
-WHERE = "Grey Dog http://maps.google.com/maps/place?cid=10214235811599076831"
+WHERE = "Bill's Burgers http://maps.google.com/maps/place?cid=6127367641255397477"
