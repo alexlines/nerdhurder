@@ -12,7 +12,7 @@
     {
         "guests": 1,
         "name": "bradley",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
