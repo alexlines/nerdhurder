@@ -10,9 +10,9 @@
         "rsvp": false
     },
     {
-        "guests": 1,
+        "guests": 0,
         "name": "bradley",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
