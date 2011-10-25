@@ -7,7 +7,7 @@
     {
         "guests": 0,
         "name": "james",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 1,
