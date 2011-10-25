@@ -27,6 +27,6 @@
     {
         "guests": 0,
         "name": "choyce",
-        "rsvp": true
+        "rsvp": false
     }
 ]
