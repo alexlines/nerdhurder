@@ -1,8 +1,8 @@
 [
     {
-        "guests": 1,
+        "guests": 2,
         "name": "alexlines",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
