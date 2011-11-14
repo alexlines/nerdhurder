@@ -18,10 +18,16 @@ python interface to lunch
 
 * rsvp for lunch via commit
 
- $ vi people.py
- edit and set NERDS['your_name']['rsvp'] to True or False
- if you're bringing guests, edit and set NERDS['your_name']['guests'] to the number (i.e. 2)
- $ git commit -m "bill's burger no longer accepts bitcoin, so I'm not coming." people.py
+ $ vi people.json
+ the json struct is fairly self-explanatory, edit accordingly:
+
+    {
+        "guests": 2,
+        "name": "alexlines",
+        "rsvp": true
+    },
+
+ $ git commit -m "bill's burger no longer accepts bitcoin, so I'm not coming." people.json
  there is a post-commit email hook tied to a group email address, so everyone should then receive the github email notification from the commit which will serve as your public rsvp.
 
 * propose a change of venue, time, or day
