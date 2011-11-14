@@ -19,7 +19,7 @@ python interface to lunch
 * rsvp for lunch via commit
 
  $ vi people.json
- the json struct is fairly self-explanatory, edit accordingly:
+ the json struct is the manifest of attendees, edit accordingly. "guests" is the count of people you're bringing other than yourself, if it's just you, then guests == 0.
 
     {
         "guests": 2,
