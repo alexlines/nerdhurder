@@ -1,5 +1,10 @@
 [
     {
+        "guests": 0,
+        "name": "dave zohrob",
+        "rsvp": false
+    },
+    {
         "guests": 2,
         "name": "alexlines",
         "rsvp": true
