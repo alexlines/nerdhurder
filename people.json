@@ -1,8 +1,8 @@
 [
     {
-        "guests": 0,
+        "guests": 1,
         "name": "dave zohrob",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 1,
