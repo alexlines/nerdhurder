@@ -2,22 +2,22 @@
     {
         "guests": 0,
         "name": "dave zohrob",
-        "rsvp": true
+        "rsvp": false
     },
     {
-        "guests": 4,
+        "guests": 0,
         "name": "alexlines",
-        "rsvp": true
+        "rsvp": false
     },
     {
-        "guests": 2,
+        "guests": 0,
         "name": "James",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
         "name": "bradley",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
