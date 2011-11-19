@@ -14,7 +14,7 @@ json_data = open('people.json')
 NERDS = json.load(json_data)
 
 LUNCH_HOUR = 13
-LUNCH_WEEKDAY = calendar.THURSDAY
+LUNCH_WEEKDAY = calendar.WEDNESDAY
 
 # brace for ugly ass comprehension:
 WHO = [ nerd['name'] for nerd in NERDS if nerd['rsvp']==True ]
