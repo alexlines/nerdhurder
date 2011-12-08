@@ -2,7 +2,7 @@
     {
         "guests": 0,
         "name": "dave zohrob",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 1,
