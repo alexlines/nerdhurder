@@ -5,7 +5,7 @@
         "rsvp": false
     },
     {
-        "guests": 1,
+        "guests": 0,
         "name": "alexlines",
         "rsvp": false
     },
@@ -27,7 +27,7 @@
     {
         "guests": 0,
         "name": "jonathan",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
