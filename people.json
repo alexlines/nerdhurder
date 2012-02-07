@@ -7,12 +7,12 @@
     {
         "guests": 0,
         "name": "alexlines",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
         "name": "James",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
