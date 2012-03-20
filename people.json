@@ -2,12 +2,12 @@
     {
         "guests": 2,
         "name": "dave zohrob",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 2,
         "name": "alexlines",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
@@ -27,7 +27,7 @@
     {
         "guests": 0,
         "name": "jonathan",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
