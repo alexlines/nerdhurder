@@ -1,13 +1,13 @@
 [
     {
-        "guests": 2,
+        "guests": 0,
         "name": "dave zohrob",
         "rsvp": false
     },
     {
-        "guests": 2,
+        "guests": 0,
         "name": "alexlines",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
