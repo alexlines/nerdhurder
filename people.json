@@ -5,9 +5,9 @@
         "rsvp": false
     },
     {
-        "guests": 0,
+        "guests": 1,
         "name": "alexlines",
-        "rsvp": false
+        "rsvp": true
     },
     {
         "guests": 0,
