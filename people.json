@@ -12,22 +12,22 @@
     {
         "guests": 0,
         "name": "jaym-z",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
         "name": "bradley",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 2,
         "name": "steve",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
         "name": "jonathan",
-        "rsvp": true
+        "rsvp": false
     },
     {
         "guests": 0,
