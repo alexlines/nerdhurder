@@ -27,11 +27,11 @@
     {
         "guests": 0,
         "name": "jonathan",
-        "rsvp": false 
+        "rsvp": true 
     },
     {
         "guests": 0,
         "name": "choyce",
-        "rsvp": true
+        "rsvp": false
     }
 ]
